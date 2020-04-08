@@ -1,3 +1,5 @@
+I plan on working in the Evolution working group. 
+
 Jonah Marz podcast reflections
 
 I enjoyed listening to the podcast, specifically these few things.
