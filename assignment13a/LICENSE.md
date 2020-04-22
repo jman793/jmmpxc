@@ -1,0 +1,4 @@
+If I had to choose a License to work on an open source project I would most generally choose the Apache license for the project. In my opinion the Apache Licesnse does the best at protecting the developers when it comes to their work being used in other peoples work. With the clause "any You must give any other recipients of the Work or Derivative Works a copy of this License; and
+You must cause any modified files to carry prominent notices stating that You changed the files;"
+
+This gives the developers the ability for their work to be used by other people for profit without also making their work open source with this license.
