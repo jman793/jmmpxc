@@ -8,11 +8,13 @@ import { environment } from '../environments/environment';
 import {AngularFireModule} from '@angular/fire';
 import {AngularFireAuthModule} from '@angular/fire/auth';
 import * as firebase from 'firebase';
+import { LandingComponent } from './landing/landing.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginPageComponent
+    LoginPageComponent,
+    LandingComponent
   ],
   imports: [
     BrowserModule,

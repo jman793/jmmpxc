@@ -10,7 +10,6 @@ export const environment = {
     authDomain: "sfteng-48b1d.firebaseapp.com",
     databaseURL: "https://sfteng-48b1d.firebaseio.com",
     projectId: "sfteng-48b1d",
-    storageBucket: "YOUR_STORAGE_BUCKET",
   }
 };
 

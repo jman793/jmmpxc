@@ -22,7 +22,7 @@ export class AuthService {
 
   async  loginWithGoogle(){
     await  this.afAuth.signInWithPopup(new firebase.auth.GoogleAuthProvider())
-    this.router.navigate(['page']);
+    this.router.navigate(['/page']);
   }
 
   async logout(){
@@ -31,7 +31,7 @@ export class AuthService {
     this.router.navigate(['']);
   }
 
-  get isLoggedIn(): boolean {
+  isLoggedIn(): boolean {
     const  user  =  JSON.parse(localStorage.getItem('user'));
     return  user  !==  null;
   }
