@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { AuthService } from '../services/auth.service';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -9,8 +10,7 @@ import { AuthService } from '../services/auth.service';
 })
 export class LoginPageComponent implements OnInit {
 
-  constructor(private authService:AuthService) {
-    console.log(authService)
+  constructor(private authService:AuthService,private router:Router) {
    }
 
   ngOnInit() {
@@ -19,5 +19,11 @@ export class LoginPageComponent implements OnInit {
   googleLogin(){
     this.authService.loginWithGoogle()
   }
+
+  guest(){
+    this.router.navigate(['/page'])
+  }
+
+  
 
 }

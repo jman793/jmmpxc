@@ -9,18 +9,22 @@ import {AngularFireModule} from '@angular/fire';
 import {AngularFireAuthModule} from '@angular/fire/auth';
 import * as firebase from 'firebase';
 import { LandingComponent } from './landing/landing.component';
+import { InsertPageComponent } from './insert-page/insert-page.component';
+import {AngularFirestoreModule} from '@angular/fire/firestore'
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginPageComponent,
-    LandingComponent
+    LandingComponent,
+    InsertPageComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireAuthModule,
+    AngularFirestoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]

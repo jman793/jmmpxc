@@ -1,2 +1,4 @@
 <button *ngIf="!authService.isLoggedIn()" (click)="authService.loginWithGoogle()">Login with Google  </button>  
 <button *ngIf="authService.isLoggedIn()" (click)="authService.logout()">Logout</button>
+<button *ngIf="!authService.isLoggedIn()" (click)="guest()">View as Guest?</button>
+<button *ngIf="authService.isLoggedIn()" (click)="guest()">Go to Display</button>
